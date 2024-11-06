@@ -1,0 +1,67 @@
+.tbl-wrapper {
+  overflow-y: auto;
+  background-color: #ffffff;
+  z-index: 9999;
+  max-height: 300px;
+  max-width: 500px;
+  display: none;
+}
+
+.tbl {
+  font-size: 9pt;
+  width: 100%;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #cccaca;
+  border-radius: 10px;
+}
+.tbl th,
+.tbl td {
+  padding: 1px 1px 1px 1px;
+}
+.tbl th {
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #cccaca;
+}
+
+/* mobile device */
+/* @media (min-width: 320px) and (max-width: 480px) {
+  .tbl-wrapper {
+    transform: translateX(-83%);
+  }
+} */
+
+/* laptop device */
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+  .tbl-wrapper {
+    transform: translateX(-33%);
+  }
+} */
+
+/* ipad & tablet device */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  .tbl-wrapper {
+    transform: translateX(-49%);
+  }
+} */
